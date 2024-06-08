@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mr-jones123/PHP-Finals/issues"
   },
-  "homepage": "https://github.com/mr-jones123/PHP-Finals#readme"
+  "homepage": "https://github.com/mr-jones123/PHP-Finals#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
