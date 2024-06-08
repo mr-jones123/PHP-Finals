@@ -1,0 +1,19 @@
+{
+  "name": "php-finals-project",
+  "version": "1.0.0",
+  "description": "A web project using PHP, TailwindCSS, and mySQL",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-jones123/PHP-Finals.git"
+  },
+  "author": "mr-jones123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-jones123/PHP-Finals/issues"
+  },
+  "homepage": "https://github.com/mr-jones123/PHP-Finals#readme"
+}
