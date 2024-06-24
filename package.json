@@ -5,7 +5,8 @@
   "description": "A web project using PHP, TailwindCSS, and mySQL",
   "main": ".",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tailwindcss -i ./apps/input.css -o ./src/output.css --watch"
   },
   "repository": {
     "type": "git",

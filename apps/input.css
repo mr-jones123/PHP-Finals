@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    body{
+        background-color: #f2feee;
+    }
+    h1{
+        font-size: 2.8rem;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -1;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+@layer components{
+    .title{
+        @apply text-7xl font-bold tracking-tighter;
+    }
+    .description{
+        @apply text-2xl font-semibold;
+    }
+    .btn-primary
+    {
+        @apply bg-primary px-8 py-3 font-normal rounded-2xl ;
+    }
+    .btn-secondary
+    {
+        @apply bg-secondary px-8 py-3 font-normal rounded-2xl ;
+    }
+    .btn-accent
+    {
+        @apply bg-accent px-8 py-3 font-normal rounded-2xl ;
+    }
+}
