@@ -25,7 +25,7 @@
     </div>
     <div class="w-full flex justify-center align-baseline gap-40 mt-10  text-xl font-medium">
         <button class="btn-accent text-xl"><a
-                href="aboutUs.php">About Me</a></button>
+                href="about.php">About Me</a></button>
     </div>
 </body>
 

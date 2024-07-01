@@ -15,11 +15,12 @@ $response = $client->geminiProVision()->generateContent(
     new TextPart('Explain what is in the image'),
     new ImagePart(
         MimeType::IMAGE_JPEG,
-        base64_encode(file_get_contents('../img/actually.jpg')),
+        base64_encode(file_get_contents('../img/Man with photo.jpg')),
     ),
 );
 
-print $response->text();
-?>
+$formattedResponse = htmlspecialchars($response->text(), ENT_QUOTES, 'UTF-8');
 
-cccccccc
+// Wrap the response in HTML paragraph tags
+echo "<p><b>{$formattedResponse}</p>";
+?>
